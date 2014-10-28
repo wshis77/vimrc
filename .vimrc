@@ -1,6 +1,8 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 set nu
+set tabstop=4
+set shiftwidth=4
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -20,15 +22,15 @@ Plugin 'L9'
 " Git plugin not hosted on GitHub
 Plugin 'git://git.wincent.com/command-t.git'
 " git repos on your local machine (i.e. when working on your own plugin)
-Plugin '~/.vim/bundle/plugin/'
+"Plugin '~/.vim/bundle/plugin/'
 " The sparkup vim script is in a subdirectory of this repo called vim.
 " Pass the path to set the runtimepath properly.
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " Avoid a name conflict with L9
-Plugin 'user/L9', {'name': 'newL9'}
+"Plugin 'user/L9', {'name': 'newL9'}
 Plugin 'AutoClose'
 Plugin 'EasyMotion'
-Plugin 'FencView.vim'
+Plugin 'mattn/emmet-vim'
 Plugin 'Tabular'
 Plugin 'The-NERD-tree'
 Plugin 'The-NERD-commenter'
@@ -37,6 +39,7 @@ Plugin 'ZenCoding.vim'
 Plugin '_jsbeautify'
 Plugin 'ctrlp.vim'
 Plugin 'matchit.zip'
+Plugin 'Lokaltog/vim-powerline'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -52,5 +55,11 @@ filetype plugin on
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 "
-"
+"set NERD Tree
 map <S-m> :NERDTreeToggle<CR>
+"set power line
+let g:Powerline_symbols = 'fancy'
+set laststatus=2
+set t_Co=256
+"set encoding=utf8
+
