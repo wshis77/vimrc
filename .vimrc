@@ -62,6 +62,7 @@ map <S-m> :NERDTreeToggle<CR>
 let g:Powerline_symbols = 'fancy'
 set laststatus=2
 set t_Co=256
-set encoding=utf8
 
 syntax on
+"set encoding=utf8
+
