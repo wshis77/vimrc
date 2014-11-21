@@ -66,3 +66,5 @@ set t_Co=256
 syntax on
 "set encoding=utf8
 
+map <F5> :!python %<CR>
+
