@@ -2,7 +2,7 @@
 This is my vim profile.
 
 ## Install
-* Copy the .vimrc to your home path.
+* Copy .vimrc to your home path.
 * Then install [Vundle]https://github.com/gmarik/Vundle.vim
 ```shell
  git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
