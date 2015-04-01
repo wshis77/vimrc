@@ -41,6 +41,7 @@ Plugin '_jsbeautify'
 Plugin 'ctrlp.vim'
 Plugin 'matchit.zip'
 Plugin 'Lokaltog/vim-powerline'
+Plugin 'plasticboy/vim-markdown'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -67,4 +68,8 @@ syntax on
 "set encoding=utf8
 
 map <F5> :!python %<CR>
+
+"disable the folding configuration for vim-markdown
+let g:vim_markdown_folding_disabled=1
+
 
