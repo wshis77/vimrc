@@ -5,6 +5,15 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 
+" change the leader to <Space> 
+let mapleader = "\<Space>"
+" create a new file
+nnoremap <Leader>o :CtrlP<CR>
+" save a file
+nnoremap <Leader>w :w<CR>
+
+
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
