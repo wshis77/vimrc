@@ -14,4 +14,9 @@ This is my vim profile.
 ```
 
 ## Install in Windows
-* See [Vundle-for-Windows]https://github.com/VundleVim/Vundle.vim/wiki/Vundle-for-Windows
+* copy _vimrc to your vim path(like C:\Program Files\Vim ) 
+* Follow [Vundle-for-Windows]https://github.com/VundleVim/Vundle.vim/wiki/Vundle-for-Windows to install vundle.
+* Then install plugins in vim
+```shell
+:PluginInstall
+```
