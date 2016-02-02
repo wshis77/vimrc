@@ -45,7 +45,7 @@ Plugin 'AutoClose'
 Plugin 'EasyMotion'
 " 快速输入HTML代码 快捷键<c-y>, 比如div>p#foo
 Plugin 'mattn/emmet-vim'
-" 对齐选择内容后，:Tab \= 按照=号进行对齐，分隔符可以是其他字符
+" 对方插件，使用v选择内容后，:Tab \= 按照=号进行对齐，分隔符可以是其他字符
 Plugin 'Tabular'
 
 " Plugin 'The-NERD-tree'

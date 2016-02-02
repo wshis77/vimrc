@@ -15,7 +15,3 @@ This is my vim profile.
 
 ## Install in Windows
 * See [Vundle-for-Windows]https://github.com/VundleVim/Vundle.vim/wiki/Vundle-for-Windows
-* Then install plugins in vim
-```shell
-:PluginInstall
-```
