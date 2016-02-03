@@ -67,7 +67,7 @@ filetype plugin on
 " Put your non-Plugin stuff after this line
 "
 "set NERD Tree
-map <S-m> :NERDTreeToggle<CR>
+map <f2> :NERDTreeToggle<CR>
 "set power line
 let g:Powerline_symbols = 'fancy'
 set laststatus=2
