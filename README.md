@@ -2,7 +2,7 @@
 This is my vim profile.
 .vimrc for vim in Linux, _vimrc fro vim in Windows.
 
-## Install in Linux
+## Install on Linux
 * Copy .vimrc to your home path.
 * Then install [Vundle]https://github.com/gmarik/Vundle.vim
 ```shell
@@ -13,7 +13,7 @@ This is my vim profile.
 :PluginInstall
 ```
 
-## Install in Windows
+## Install on Windows
 * copy _vimrc to your vim path(like C:\Program Files\Vim ) 
 * Follow [Vundle-for-Windows]https://github.com/VundleVim/Vundle.vim/wiki/Vundle-for-Windows to install vundle
 * Then install plugins in vim
